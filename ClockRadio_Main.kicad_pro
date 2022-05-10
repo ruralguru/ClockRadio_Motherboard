@@ -1,0 +1,800 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.09999999999999999,
+        "copper_line_width": 0.15,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.0,
+        "copper_text_size_v": 1.0,
+        "copper_text_thickness": 0.153,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.049999999999999996,
+        "dimension_precision": 3,
+        "dimension_units": 1,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": true,
+          "text_position": 0,
+          "units_format": 1
+        },
+        "fab_line_width": 0.15,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.153,
+        "fab_text_upright": false,
+        "other_line_width": 0.15,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.153,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
+        },
+        "silk_line_width": 0.15,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.153,
+        "silk_text_upright": false,
+        "zones": {
+          "45_degree_only": false,
+          "min_clearance": 0.508
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.1016,
+          "via_gap": 0.508,
+          "width": 0.082042
+        },
+        {
+          "gap": 0.1524,
+          "via_gap": 0.508,
+          "width": 0.118872
+        },
+        {
+          "gap": 0.1016,
+          "via_gap": 0.508,
+          "width": 0.125984
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.508,
+          "width": 0.14478
+        },
+        {
+          "gap": 0.1524,
+          "via_gap": 0.508,
+          "width": 0.175006
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.508,
+          "width": 0.205232
+        }
+      ],
+      "drc_exclusions": [],
+      "meta": {
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "copper_edge_clearance": "error",
+        "courtyards_overlap": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
+        "invalid_outline": "error",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "net_conflict": "warning",
+        "npth_inside_courtyard": "ignore",
+        "padstack": "error",
+        "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_dangling": "warning",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zone_has_empty_net": "error",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "allow_blind_buried_vias": false,
+        "allow_microvias": false,
+        "max_error": 0.005,
+        "min_clearance": 0.09,
+        "min_copper_edge_clearance": 0.19999999999999998,
+        "min_hole_clearance": 0.32999999999999996,
+        "min_hole_to_hole": 0.254,
+        "min_microvia_diameter": 0.19999999999999998,
+        "min_microvia_drill": 0.09999999999999999,
+        "min_silk_clearance": 0.0,
+        "min_through_hole_diameter": 0.19999999999999998,
+        "min_track_width": 0.09,
+        "min_via_annular_width": 0.13,
+        "min_via_diameter": 0.39999999999999997,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0,
+        "use_height_for_length_calcs": true
+      },
+      "track_widths": [
+        0.0,
+        0.19812,
+        0.23495,
+        0.29337,
+        0.381,
+        0.508
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.4064,
+          "drill": 0.2032
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.254
+        },
+        {
+          "diameter": 0.8128,
+          "drill": 0.4064
+        }
+      ],
+      "zones_allow_external_fillets": true,
+      "zones_use_no_outline": true
+    },
+    "layer_presets": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "ClockRadio_Main.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.1016,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.125984,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.29337,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.1016,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.125984,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Analog",
+        "nets": [
+          "/Schematic Top/AIN.L",
+          "/Schematic Top/AIN.R",
+          "/Schematic Top/ANALOG.PI_5WAY",
+          "/Schematic Top/ANALOG.PI_POT"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.29337,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.1016,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.125984,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Digital",
+        "nets": [
+          "/Schematic Top/AIN.DET"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.29337,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.205232,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "nets": [
+          "/Schematic Top/Audio Top/Amplifier/Amplifier Power/VREG_AMP",
+          "/Schematic Top/Audio Top/Amplifier/Amplifier Power/VR_ANA_AMP",
+          "/Schematic Top/Audio Top/BlueTooth/BT_VBUS",
+          "/Schematic Top/Audio Top/BlueTooth/VBAT_BT",
+          "/Schematic Top/Connectors/Ambient Board/3.3 V Amb Conn/V3P3_LP_L",
+          "/Schematic Top/Connectors/Ambient Board/3.3 V Amb Conn/V3P3_LP_LED",
+          "/Schematic Top/Connectors/Ambient Board/3.3 V Amb Conn/V3P3_LP_OUT",
+          "/Schematic Top/Connectors/Ambient Board/6.0 V Amb Conn/6.0 V Conn Sense/VSNS_FILT+",
+          "/Schematic Top/Connectors/Ambient Board/6.0 V Amb Conn/6.0 V Conn Sense/VSNS_FILT-",
+          "/Schematic Top/Connectors/Ambient Board/6.0 V Amb Conn/V6P0_HIGHSIDE",
+          "/Schematic Top/Connectors/Ambient Board/6.0 V Amb Conn/V6P0_LED",
+          "/Schematic Top/Connectors/Ambient Board/6.0 V Amb Conn/V6P0_SW",
+          "/Schematic Top/Connectors/Ambient Board/6.0 V Amb Conn/VSNS_6P0_CONN+",
+          "/Schematic Top/Connectors/Ambient Board/6.0 V Amb Conn/VSNS_6P0_CONN-",
+          "/Schematic Top/Connectors/Ambient Board/V3P3_AMB",
+          "/Schematic Top/Connectors/Ambient Board/V6P0_AMB",
+          "/Schematic Top/Connectors/Display Board/3.3V Disp Conn/V3P3_LP_L",
+          "/Schematic Top/Connectors/Display Board/3.3V Disp Conn/V3P3_LP_LED",
+          "/Schematic Top/Connectors/Display Board/3.3V Disp Conn/V3P3_LP_OUT",
+          "/Schematic Top/Connectors/Display Board/6.0 V Disp Conn/6.0 V Conn Sense/VSNS_FILT+",
+          "/Schematic Top/Connectors/Display Board/6.0 V Disp Conn/6.0 V Conn Sense/VSNS_FILT-",
+          "/Schematic Top/Connectors/Display Board/6.0 V Disp Conn/V6P0_HIGHSIDE",
+          "/Schematic Top/Connectors/Display Board/6.0 V Disp Conn/V6P0_SW",
+          "/Schematic Top/Connectors/Display Board/6.0 V Disp Conn/VSNS_6P0_CONN+",
+          "/Schematic Top/Connectors/Display Board/6.0 V Disp Conn/VSNS_6P0_CONN-",
+          "/Schematic Top/Connectors/Display Board/V3P3_DISP_I2C",
+          "/Schematic Top/Connectors/Display Board/V6P0_DISP",
+          "/Schematic Top/Connectors/Mic Conn/V_MIC",
+          "/Schematic Top/Connectors/Phys Interface Board/3.3 V PI Conn/V3P3_LP_L",
+          "/Schematic Top/Connectors/Phys Interface Board/3.3 V PI Conn/V3P3_LP_LED",
+          "/Schematic Top/Connectors/Phys Interface Board/3.3 V PI Conn/V3P3_LP_OUT",
+          "/Schematic Top/Connectors/Phys Interface Board/6.0 V PI Conn/6.0 V Conn Sense/VSNS_FILT+",
+          "/Schematic Top/Connectors/Phys Interface Board/6.0 V PI Conn/6.0 V Conn Sense/VSNS_FILT-",
+          "/Schematic Top/Connectors/Phys Interface Board/6.0 V PI Conn/V6P0_HIGHSIDE",
+          "/Schematic Top/Connectors/Phys Interface Board/6.0 V PI Conn/V6P0_LED",
+          "/Schematic Top/Connectors/Phys Interface Board/6.0 V PI Conn/V6P0_SW",
+          "/Schematic Top/Connectors/Phys Interface Board/6.0 V PI Conn/VSNS_6P0_CONN+",
+          "/Schematic Top/Connectors/Phys Interface Board/6.0 V PI Conn/VSNS_6P0_CONN-",
+          "/Schematic Top/Connectors/Phys Interface Board/V3P3_PI_I2C",
+          "/Schematic Top/Connectors/Phys Interface Board/V6P0_PI",
+          "/Schematic Top/MCU/IO Expander/VCC_IO_A",
+          "/Schematic Top/MCU/IO Expander/VCC_IO_B",
+          "/Schematic Top/MCU/V3P3_LED",
+          "/Schematic Top/MCU/V3P3_LED_BL",
+          "/Schematic Top/MCU/V5P0_OUT_DNI",
+          "/Schematic Top/Power Top/12.0 V System/12.0V VSense/VSNS_FILT+",
+          "/Schematic Top/Power Top/12.0 V System/12.0V VSense/VSNS_FILT-",
+          "/Schematic Top/Power Top/12.0 V System/I12P0",
+          "/Schematic Top/Power Top/12.0 V System/I12P0_IN_SENSE",
+          "/Schematic Top/Power Top/12.0 V System/V12P0_HIGHSIDE",
+          "/Schematic Top/Power Top/12.0 V System/V12P0_IN",
+          "/Schematic Top/Power Top/12.0 V System/V12P0_LED",
+          "/Schematic Top/Power Top/12.0 V System/VSNS_12P0+",
+          "/Schematic Top/Power Top/12.0 V System/VSNS_12P0-",
+          "/Schematic Top/Power Top/3.3 V Amplifier/3.3 V MP Vsense/VSNS_FILT+",
+          "/Schematic Top/Power Top/3.3 V Amplifier/3.3 V MP Vsense/VSNS_FILT-",
+          "/Schematic Top/Power Top/3.3 V Amplifier/V3P3_MP_BST",
+          "/Schematic Top/Power Top/3.3 V Amplifier/V3P3_MP_DNU",
+          "/Schematic Top/Power Top/3.3 V Amplifier/V3P3_MP_HIGHSIDE",
+          "/Schematic Top/Power Top/3.3 V Amplifier/V3P3_MP_LED",
+          "/Schematic Top/Power Top/3.3 V Amplifier/V3P3_MP_SW",
+          "/Schematic Top/Power Top/3.3 V Amplifier/VSNS_V3P3_MP+",
+          "/Schematic Top/Power Top/3.3 V Amplifier/VSNS_V3P3_MP-",
+          "/Schematic Top/Power Top/3.3 V Bluetooth/3.3 V MP Vsense/VSNS_FILT+",
+          "/Schematic Top/Power Top/3.3 V Bluetooth/3.3 V MP Vsense/VSNS_FILT-",
+          "/Schematic Top/Power Top/3.3 V Bluetooth/V3P3_MP_BST",
+          "/Schematic Top/Power Top/3.3 V Bluetooth/V3P3_MP_DNU",
+          "/Schematic Top/Power Top/3.3 V Bluetooth/V3P3_MP_HIGHSIDE",
+          "/Schematic Top/Power Top/3.3 V Bluetooth/V3P3_MP_LED",
+          "/Schematic Top/Power Top/3.3 V Bluetooth/V3P3_MP_SW",
+          "/Schematic Top/Power Top/3.3 V Bluetooth/VSNS_V3P3_MP+",
+          "/Schematic Top/Power Top/3.3 V Bluetooth/VSNS_V3P3_MP-",
+          "/Schematic Top/Power Top/3.3 V I2C/3.3 V MP Vsense/VSNS_FILT+",
+          "/Schematic Top/Power Top/3.3 V I2C/3.3 V MP Vsense/VSNS_FILT-",
+          "/Schematic Top/Power Top/3.3 V I2C/V3P3_MP_BST",
+          "/Schematic Top/Power Top/3.3 V I2C/V3P3_MP_DNU",
+          "/Schematic Top/Power Top/3.3 V I2C/V3P3_MP_HIGHSIDE",
+          "/Schematic Top/Power Top/3.3 V I2C/V3P3_MP_LED",
+          "/Schematic Top/Power Top/3.3 V I2C/V3P3_MP_SW",
+          "/Schematic Top/Power Top/3.3 V I2C/VSNS_V3P3_MP+",
+          "/Schematic Top/Power Top/3.3 V I2C/VSNS_V3P3_MP-",
+          "/Schematic Top/Power Top/5.0 V MCU/V5P0_LED",
+          "/Schematic Top/Power Top/5.0 V MCU/V5P0_SW",
+          "/Schematic Top/Power Top/VDD Amplifier/IDD_AMP",
+          "/Schematic Top/Power Top/VDD Amplifier/IDD_IN_SENSE",
+          "/Schematic Top/Power Top/VDD Amplifier/VDD AMP Vsense/VSNS_FILT+",
+          "/Schematic Top/Power Top/VDD Amplifier/VDD AMP Vsense/VSNS_FILT-",
+          "/Schematic Top/Power Top/VDD Amplifier/VDD_AMP_HIGHSIDE",
+          "/Schematic Top/Power Top/VDD Amplifier/VDD_AMP_IN",
+          "/Schematic Top/Power Top/VDD Amplifier/VDD_AMP_LED",
+          "/Schematic Top/Power Top/VDD Amplifier/VSNS.IDD",
+          "/Schematic Top/Power Top/VDD Amplifier/VSNS_VDD_AMP+",
+          "/Schematic Top/Power Top/VDD Amplifier/VSNS_VDD_AMP-",
+          "GND",
+          "GNDPWR",
+          "STBY",
+          "V12P0",
+          "V3P3",
+          "V3P3_BT",
+          "V3P3_I2C",
+          "V5P0",
+          "VDD_AMP",
+          "VDD_AMP_PWR",
+          "VDD_BT",
+          "VSS",
+          "V_SYS"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.381,
+        "via_diameter": 0.8128,
+        "via_drill": 0.4064,
+        "wire_width": 6.0
+      }
+    ],
+    "meta": {
+      "version": 2
+    },
+    "net_colors": null
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/RuralGuru.kicad_wks"
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": true,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": true,
+      "intersheets_ref_show": true,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.25,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.08
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/RuralGuru.kicad_wks",
+    "plot_directory": "Documents/Schematic/",
+    "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
+    "subpart_first_id": 65,
+    "subpart_id_separator": 95
+  },
+  "sheets": [
+    [
+      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      ""
+    ],
+    [
+      "81e5e2e6-ebe4-4e93-9cf2-434d0395e1d1",
+      "Schematic Top"
+    ],
+    [
+      "5469e6a8-e2ca-451d-bce1-e442891292e9",
+      "Mech & Graphics"
+    ],
+    [
+      "9039633f-c6d7-450a-a8f1-24063f46d78a",
+      "Connectors"
+    ],
+    [
+      "76e03973-2c98-461f-ae22-454795bb164e",
+      "SYSTEM Power"
+    ],
+    [
+      "4f4a39ba-efd1-4ab3-80f5-0c29949bbe99",
+      "Line Input"
+    ],
+    [
+      "5dd72619-8865-48e4-9299-1cf68e59fd77",
+      "Mic Conn"
+    ],
+    [
+      "4ed7d719-1744-4914-8c93-3906956b5871",
+      "Phys Interface Board"
+    ],
+    [
+      "1aa9a0f0-22ee-40ac-a5ca-257da8d79e24",
+      "6.0 V PI Conn"
+    ],
+    [
+      "ffa77e42-286a-4b21-9904-daa733fb0cfc",
+      "6.0 V Conn Sense"
+    ],
+    [
+      "3d6f5373-4b0c-4180-bca8-da0d013670cf",
+      "3.3 V PI Conn"
+    ],
+    [
+      "0deb42c3-3967-4d9d-b40d-90f53879b342",
+      "Ambient Board"
+    ],
+    [
+      "9e0b72ad-2ce8-4ed5-9a34-0b635d216fd6",
+      "6.0 V Amb Conn"
+    ],
+    [
+      "ffa77e42-286a-4b21-9904-daa733fb0cfc",
+      "6.0 V Conn Sense"
+    ],
+    [
+      "954df930-61d3-4d8f-b74f-e09dad8d86c0",
+      "3.3 V Amb Conn"
+    ],
+    [
+      "52545fb9-039a-43d8-89eb-5ac355dd5e08",
+      "Display Board"
+    ],
+    [
+      "9fe0abd6-ca69-4093-809c-70b8b2851e55",
+      "6.0 V Disp Conn"
+    ],
+    [
+      "ffa77e42-286a-4b21-9904-daa733fb0cfc",
+      "6.0 V Conn Sense"
+    ],
+    [
+      "b9b6cef0-e01c-4c4c-902b-2b197525dfdb",
+      "3.3V Disp Conn"
+    ],
+    [
+      "4f4277d9-4ff1-4fe4-9af0-84cedee4b2b6",
+      "Power Top"
+    ],
+    [
+      "991b63a4-5773-49ee-bd72-c262da0018d0",
+      "12.0 V System"
+    ],
+    [
+      "b2c3c366-a477-43ff-8389-eb0060246c55",
+      "12.0V VSense"
+    ],
+    [
+      "5af7cf1e-05a9-4ea4-a97e-c2a12358565b",
+      "5.0 V MCU"
+    ],
+    [
+      "5c8cd53f-4ab4-46ad-be4b-ee01330c1710",
+      "3.3 V I2C"
+    ],
+    [
+      "fe49e463-f6aa-421f-81d2-a46e09a3cc7d",
+      "3.3 V MP Vsense"
+    ],
+    [
+      "f4201211-a08c-4d96-a762-9931452b3dac",
+      "3.3 V Amplifier"
+    ],
+    [
+      "fe49e463-f6aa-421f-81d2-a46e09a3cc7d",
+      "3.3 V MP Vsense"
+    ],
+    [
+      "2f34aefa-861e-4f55-b787-b436943e7f27",
+      "VDD Amplifier"
+    ],
+    [
+      "59a616c2-2153-421b-9b15-017dc1a50551",
+      "VDD AMP Vsense"
+    ],
+    [
+      "324577d7-00ed-4866-9c52-61faa0a4856c",
+      "3.3 V Bluetooth"
+    ],
+    [
+      "fe49e463-f6aa-421f-81d2-a46e09a3cc7d",
+      "3.3 V MP Vsense"
+    ],
+    [
+      "55dcd4b1-3ec3-494e-849b-67d739100f19",
+      "MCU"
+    ],
+    [
+      "5aad2a51-c773-45db-a6a9-fc3c71fc2b8a",
+      "IO Expander"
+    ],
+    [
+      "00000000-0000-0000-0000-00005c5d00f0",
+      "Board Temp"
+    ],
+    [
+      "5401247b-73f9-4efe-acdb-cc46fa91cf4f",
+      "RTC"
+    ],
+    [
+      "9fce97d1-ce14-49e0-834d-35952f967da5",
+      "Audio Top"
+    ],
+    [
+      "265207a8-bffb-4414-bedd-07baac27ad74",
+      "BlueTooth"
+    ],
+    [
+      "a2b06494-e617-4a87-8bcf-6f6de57e85ce",
+      "Amplifier"
+    ],
+    [
+      "2f973f45-df6e-43a4-89c5-1ed1953a354b",
+      "Amplifier Power"
+    ]
+  ],
+  "text_variables": {}
+}

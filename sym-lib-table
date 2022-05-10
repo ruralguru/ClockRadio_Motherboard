@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name "ERW_Power")(type "KiCad")(uri "${KICAD_USER_SYMBOLS}/ERW_Power.kicad_sym")(options "")(descr ""))
+  (lib (name "ERW_PRIMARY")(type "KiCad")(uri "${KICAD_USER_SYMBOLS}/ERW_PRIMARY.kicad_sym")(options "")(descr ""))
+  (lib (name "ERW_Audio")(type "KiCad")(uri "${KICAD_USER_SYMBOLS}/ERW_Audio.kicad_sym")(options "")(descr ""))
+  (lib (name "ERW_LOGO")(type "KiCad")(uri "${KICAD_USER_SYMBOLS}/ERW_LOGO.kicad_sym")(options "")(descr ""))
+  (lib (name "ERW_Sensor")(type "KiCad")(uri "${KICAD_USER_SYMBOLS}/ERW_Sensor.kicad_sym")(options "")(descr ""))
+  (lib (name "ERW_Time")(type "KiCad")(uri "${KICAD_USER_SYMBOLS}/ERW_Time.kicad_sym")(options "")(descr ""))
+  (lib (name "ERW_SW")(type "KiCad")(uri "${KICAD_USER_SYMBOLS}/ERW_SW.kicad_sym")(options "")(descr ""))
+  (lib (name "Logo")(type "KiCad")(uri "${KIPRJMOD}/Project_libraries/Logo.kicad_sym")(options "")(descr ""))
+  (lib (name "UCCS")(type "KiCad")(uri "${KIPRJMOD}/Project_libraries/UCCS.kicad_sym")(options "")(descr ""))
+)
